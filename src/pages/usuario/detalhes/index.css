@@ -1,0 +1,25 @@
+#container{
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+}
+.produto-info{
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid blue;
+    width: 450px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-info a{
+    border: 1px solid blue;
+    border-left: none;
+    border-right: none;
+}
+
+.produto-info a:hover{
+    background: blue;
+    color: white;
+}
